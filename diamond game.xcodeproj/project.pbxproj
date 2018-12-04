@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CDE62E821B56E8A00A2DDFC /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDE62E721B56E8A00A2DDFC /* Cell.swift */; };
+		6CDE62EC21B56F2700A2DDFC /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDE62EB21B56F2700A2DDFC /* Direction.swift */; };
 		DB1C2714212FE1CC00D0A9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C2713212FE1CC00D0A9DE /* AppDelegate.swift */; };
 		DB1C2716212FE1CC00D0A9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1C2715212FE1CC00D0A9DE /* ViewController.swift */; };
 		DB1C2719212FE1CC00D0A9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1C2717212FE1CC00D0A9DE /* Main.storyboard */; };
@@ -16,10 +18,11 @@
 		DB599F6A21B2303A00A394CA /* Mitame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB599F6921B2303A00A394CA /* Mitame.swift */; };
 		DB599F6C21B24C8F00A394CA /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB599F6B21B24C8F00A394CA /* Board.swift */; };
 		DB6DAFB821B21ED5000425CB /* EditWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DAFB721B21ED5000425CB /* EditWindow.swift */; };
-		DB6DAFBA21B22682000425CB /* Koma.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6DAFB921B22682000425CB /* Koma.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CDE62E721B56E8A00A2DDFC /* Cell.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = "/Users/yume_yu/Documents/git-dir/diamond_game/diamond game/Cell.swift"; sourceTree = "<absolute>"; tabWidth = 2; usesTabs = 1; };
+		6CDE62EB21B56F2700A2DDFC /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 		DB1C2710212FE1CC00D0A9DE /* diamond game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "diamond game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1C2713212FE1CC00D0A9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB1C2715212FE1CC00D0A9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,9 +32,8 @@
 		DB1C271F212FE1CD00D0A9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB599F6721B22DBB00A394CA /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		DB599F6921B2303A00A394CA /* Mitame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mitame.swift; sourceTree = "<group>"; };
-		DB599F6B21B24C8F00A394CA /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		DB599F6B21B24C8F00A394CA /* Board.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
 		DB6DAFB721B21ED5000425CB /* EditWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWindow.swift; sourceTree = "<group>"; };
-		DB6DAFB921B22682000425CB /* Koma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koma.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				DB1C2713212FE1CC00D0A9DE /* AppDelegate.swift */,
+				6CDE62E721B56E8A00A2DDFC /* Cell.swift */,
+				6CDE62EB21B56F2700A2DDFC /* Direction.swift */,
 				DB1C2715212FE1CC00D0A9DE /* ViewController.swift */,
 				DB1C271C212FE1CD00D0A9DE /* LaunchScreen.storyboard */,
 				DB1C2717212FE1CC00D0A9DE /* Main.storyboard */,
@@ -72,7 +76,6 @@
 				DB1C2711212FE1CC00D0A9DE /* Products */,
 				DB6DAFB721B21ED5000425CB /* EditWindow.swift */,
 				DB599F6B21B24C8F00A394CA /* Board.swift */,
-				DB6DAFB921B22682000425CB /* Koma.swift */,
 				DB599F6921B2303A00A394CA /* Mitame.swift */,
 				DB599F6721B22DBB00A394CA /* Team.swift */,
 				DB1C271F212FE1CD00D0A9DE /* Info.plist */,
@@ -152,8 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1C2716212FE1CC00D0A9DE /* ViewController.swift in Sources */,
-				DB6DAFBA21B22682000425CB /* Koma.swift in Sources */,
 				DB6DAFB821B21ED5000425CB /* EditWindow.swift in Sources */,
+				6CDE62E821B56E8A00A2DDFC /* Cell.swift in Sources */,
+				6CDE62EC21B56F2700A2DDFC /* Direction.swift in Sources */,
 				DB599F6821B22DBB00A394CA /* Team.swift in Sources */,
 				DB599F6C21B24C8F00A394CA /* Board.swift in Sources */,
 				DB599F6A21B2303A00A394CA /* Mitame.swift in Sources */,
